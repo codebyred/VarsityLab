@@ -1,6 +1,9 @@
 #include <iostream>
 
 // write an add method: sourav
+int add(int a, int b){
+    return a+b;
+}
 
 //write a subtract method: badhan
 
