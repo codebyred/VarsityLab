@@ -7,6 +7,9 @@
 //write a division method: adnan
 
 //write a multiply method: redoan
+int multiply(int a, int b){
+    return a * b;
+}
 
 int main(){
 
