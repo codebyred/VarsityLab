@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Panel</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="script.js">
-  <link rel="stylesheet" href="style.php">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Repository</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="my.js">
 </head>
 <body>
-  <div class="sidebar">
-    <ul>
-      <li onclick="showDetails('users')">Users</li>
-      <li onclick="showDetails('workers')">Workers</li>
-      <li onclick="showDetails('brokers')">Brokers</li>
-    </ul>
-  </div>
-  <div class="content" id="content">
-    <!-- Details will be displayed here -->
-  </div>
-
-  <script src="script.js"></script>
+    <div class="container">
+        <div class="category" id="users" onclick="showDetails('users')">Users</div>
+        <div class="category" id="workers" onclick="showDetails('workers')">Workers</div>
+        <div class="category" id="brokers" onclick="showDetails('brokers')">Brokers</div>
+    </div>
+    <div class="details" id="detailsBox"></div>
+    <script src="script.js"></script>
 </body>
 </html>
+.container {
+    display: flex;
+}

@@ -1,29 +1,14 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .sidebar {
-    width: 200px;
-    height: 100%;
-    background: #333;
-    position: fixed;
-  }
-  
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar ul li {
-    padding: 10px;
-    color: #fff;
+.category {
     cursor: pointer;
-  }
-  
-  .content {
-    margin-left: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.details {
+    margin-top: 20px;
     padding: 20px;
-  }
-  
+    background-color: lightgray;
+    border-radius: 5px;
+}
