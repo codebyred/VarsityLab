@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="style.php">
+</head>
+<body>
+  <div class="sidebar">
+    <ul>
+      <li onclick="showDetails('users')">Users</li>
+      <li onclick="showDetails('workers')">Workers</li>
+      <li onclick="showDetails('brokers')">Brokers</li>
+    </ul>
+  </div>
+  <div class="content" id="content">
+    <!-- Details will be displayed here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
